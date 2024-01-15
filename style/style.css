@@ -97,13 +97,13 @@ nav ul li a {
 
 .banner h1 {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
 }
 
 .banner p {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     max-width: 40rem;
 }
@@ -133,7 +133,60 @@ button {
 }
 /* _________________________________________Popular Tours Section */
 /* _____Main */
-main{
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .banner-input, nav, ul{
+        flex-direction: column;
+    }
+    header{
+        margin: 3rem 1rem;
+    }
+    .banner{
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+    .banner h1{
+        font-size: 1.5rem;
+    }
+    .banner p{
+        max-width: 20rem;
+    }
 }
-
