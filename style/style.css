@@ -1,0 +1,139 @@
+/* _____Mulish Font from - Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* _____Universal Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.red-color-span {
+    color: #FF5400;
+
+}
+
+.icon-align {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.common-p-text {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.red-button {
+    padding: 0rem auto;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ______________________________________________HEADER */
+header {
+    margin: 3rem 8rem;
+}
+
+
+/* NAV-BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .web-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.web-title h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 2.5rem;
+}
+
+nav ul li a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*__________________________Banner Section */
+.banner {
+    margin: 3rem 0rem;
+    height: 77vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 40rem;
+}
+
+.banner-input {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input button {
+    padding-left: 40px;
+}
+
+.banner-input input,
+select,
+button {
+    width: 11rem;
+    height: 3rem;
+    padding-left: 14px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+/* _________________________________________Popular Tours Section */
+/* _____Main */
+main{
+
+}
+
