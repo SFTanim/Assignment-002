@@ -29,12 +29,18 @@ body {
 }
 
 .red-button {
-    padding: 0rem auto;
+    padding: 0rem 2rem;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /* ______________________________________________HEADER */
@@ -131,9 +137,50 @@ button {
     background: #FFF;
     border: 0;
 }
+
+.btn-banner {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /* _________________________________________Popular Tours Section */
 /* _____Main */
+main {
+    margin: 3rem 8rem;
+}
 
+.popular-tours {
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tours-content {
+    max-width: 32rem;
+    text-align: left;
+}
+
+.tours-content ul {
+    margin-left: 20px;
+    margin: 2rem 2rem;
+}
+
+.tours-content ul li p {
+    margin-bottom: 35px;
+}
+
+.tours-content p {
+    margin-top: 20px;
+}
+
+.tours-content button {
+    margin-top: 30px;
+}
 
 
 
@@ -172,21 +219,34 @@ button {
 
 
 @media screen and (max-width: 600px) {
-    .banner-input, nav, ul{
+
+   .popular-tours, .banner-input,
+    nav,
+    ul {
         flex-direction: column;
     }
-    header{
+
+    main, header {
         margin: 3rem 1rem;
     }
-    .banner{
+
+    .banner {
         background-size: cover;
         height: 100vh;
         background-position: center;
     }
-    .banner h1{
+
+    .section-title, .banner h1 {
         font-size: 1.5rem;
     }
-    .banner p{
+
+    .banner p {
         max-width: 20rem;
+    }
+    .popular-tours .tour-pic{
+        margin: 2rem 0rem;
+    }
+    .popular-tours img{
+        width: 100%;
     }
 }
