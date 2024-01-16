@@ -12,11 +12,13 @@
     <!-- Header -->
     <header>
       <!-- Navigation Bar -->
-      <nav>
+      <input type="checkbox" id="nav-click">
+      <nav class="nav">
         <div class="web-title">
           <img src="Images/pngwing.com.png" alt="Website-Logo">
           <h1>Travel <span class="red-color-span">Trails</span></h1>
         </div>
+        <label for="nav-click" class="burger">&#9776;</label>
         <ul>
           <li><a href="#"><span class="red-color-span">Home</span></a></li>
           <li><a href="#">Packages</a></li>
@@ -49,7 +51,7 @@
     </header>
 
     <main>
-      <section class="popular-tours">
+      <section class="popular-tours hide">
         <div class="tours-content">
           <h1 class="section-title">Our Popular Tours</h1>
           <p class="common-p-text">Explore our popular tours, crafted for unforgettable adventures. Immerse in culture, indulge in luxury, and create lasting memories.</p>
@@ -73,6 +75,114 @@
           <img src="Images/Rectangle 4.png" alt="Rectangle-4">
         </div>
       </section>
+
+      <section class="destination">
+        <h1 class="section-title">Choose Your Destination</h1>
+        <p class="common-p-text">Explore the world at your fingertips. Choose your destination and unlock a world of enchanting experiences, captivating landscapes, and lasting memorie!</p>
+        <div class="collage">
+          <div class="first-line">
+            <div class="Maldives box"><img src="Images/Rectangle 5.png" alt=""></div>
+          <div class="Indonesia box"><img src="Images/Rectangle 8.png" alt=""></div>
+          </div>
+
+          <div class="second-line">
+            <div class="Srilanka box"><img src="Images/Rectangle 6.png" alt=""></div>
+            <div class="North_America box"><img src="Images/Rectangle 7.png" alt=""></div>
+            <div class="Kashmir box"><img src="Images/Rectangle 9.png" alt=""></div>
+          </div>
+
+          <div class="third-line">
+            <div class="Bangladesh box"><img src="Images/Rectangle 11.png" alt=""></div>
+          <div class="Bandarban box"><img src="Images/Rectangle 10.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-section">
+        <h1 class="section-title">We Provide Best Solution For Your Vacation</h1>
+        <div class="my-sect-container">
+          <div class="my-sect-contain">
+            <img src="Images/location.png" alt="">
+            <h3 class="container-title">Your Dream Places</h3>
+            <p class="common-p-text">The most important thing in mind about travelling in Slovakia is: get out of Bratislava!</p>
+            <button class="red-button see-more">See More</button>
+          </div>
+          <div class="my-sect-contain">
+            <img src="Images/airplane.png" alt="">
+            <h3 class="container-title">Safest Transport</h3>
+            <p class="common-p-text">Flying, on the other hand is the safest means of transport for a variety od reasons.</p>
+            <button class="red-button see-more">See More</button>
+          </div>
+          <div class="my-sect-contain">
+            <img src="Images/person.png" alt="">
+            <h3 class="container-title">Best Trip Guiding</h3>
+            <p class="common-p-text">Discover, plan and book your perfect trip with expert advice, travel guides, destination information from trip.</p>
+            <button class="red-button see-more">See More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="choose">
+        <div class="choose-title">
+          <h1 class="section-title">Why Choose Us</h1>
+          <p class="common-p-text p">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        </div>
+        <div class="choose-container">
+          <div class="content">
+            <img src="Images/hotel.png" alt="">
+            <h3 class="container-title">Handpicked Hotels</h3>
+            <p class="common-p-text">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+          <div class="content">
+            <img src="Images/map.png" alt="">
+            <h3 class="container-title">World Class Service</h3>
+            <p class="common-p-text">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+          <div class="content">
+            <img src="Images/discount.png" alt="">
+            <h3 class="container-title">Best Price Guarantee</h3>
+            <p class="common-p-text">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="newsletter-content">
+          <h3 class="container-title">Newsletter</h3>
+          <p class="common-p-text">Get your daily dose of travel news & tips. Sign up today!</p>
+          <hr>
+          <div class="newsletter-input">
+            <input type="text" placeholder="Enter your name" name="" id="">
+            <input type="email" placeholder="Enter your email" name="" id="">
+            <button class="red-button">Subscribe</button>
+          </div>
+        </div>
+        <div class="newsletter-pic">
+          <img src="Images/Rectangle 8 (1).png" alt="">
+          <div class="offer">
+            <p>Travel.com</p>
+            <h3>Save up to 70%</h3>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="footer-title">
+          <img src="Images/pngwing.com.png" alt="Website-Logo">
+          <h1>Travel <span class="red-color-span">Trails</span></h1>
+        </div>
+        <p class="common-p-text footer-p">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        <div class="footer-icons">
+          <img src="Images/dribbble.png" alt="">
+          <img src="Images/instagram.png" alt="">
+          <img src="Images/twitter.png" alt="">
+          <img src="Images/youtube.png" alt="">
+        </div>
+      </div>
+      
+      <p class="footer-last-text">2017, All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
